@@ -144,21 +144,60 @@ Create a **VirtualBox snapshot** after completing the initial Kali Linux lab set
 A short walkthrough of the completed Week 01 environment, including the virtual machine, network configuration, connectivity checks, and recovery point.
 
 **Project Video:** 
-
+WhatsApp Video 2026-08-13 at 9.54.02 PM.mp4
 ---
 
 ## Final Architecture
 
 ```text
 Windows 11 Host
-      │
-      ▼
+       │
+       ▼
 Oracle VirtualBox
-      │
-      ▼
+       │
+       ▼
 NAT Network
 10.0.0.0/24
-      │
-      ▼
-Kali Linux
+       │
+       ▼
+Kali Linux VM
 10.0.0.2/24
+```
+## Key Outcomes
+
+The Week 01 lab successfully established the core virtual cybersecurity environment and validated its initial network configuration.
+
+- Kali Linux VM deployed and configured
+- VirtualBox NAT Network established
+- IPv4 addressing configured
+- Network connectivity and DNS resolution verified
+- VM snapshot created as a recovery point
+- Environment prepared for subsequent cybersecurity exercises
+
+## Security & Responsible Use
+
+This laboratory is intended for authorized cybersecurity education, experimentation, and security testing.
+
+All activities must remain within systems, networks, virtual machines, and applications that are owned or explicitly authorized for testing.
+
+
+## Mentor
+
+**Waqas Karim (CCIE)**
+
+Technical guidance and mentorship provided throughout the cybersecurity internship.
+
+## Phase 01 — Completion
+
+**Status:** `COMPLETED`
+
+Week 01 successfully established the foundational cybersecurity lab environment using **Oracle VirtualBox and Kali Linux**. The environment has been configured, network settings validated, and a recovery point created for continued laboratory work.
+
+| Phase | Focus | Status |
+|---|---|---|
+| **01** | Virtualization & Network Foundations | **Completed** |
+
+**Environment:** Kali Linux · Oracle VirtualBox · NAT Network  
+**Next:** Advanced cybersecurity laboratory exercises
+
+**Week 01 — Lab Environment Setup: Completed**
